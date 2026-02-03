@@ -1,0 +1,12 @@
+[build-system]
+requires=["setuptools"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="fastapi-sec"
+version="0.1.0"
+description="fastapi security cli"
+requires-python=">=3.10"
+
+[project.scripts]
+fastapi-sec="fastapi_sec.main:main"
